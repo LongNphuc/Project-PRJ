@@ -1,0 +1,42 @@
+/* Thiết lập font chữ và kích thước */
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    /* Thiết lập các thuộc tính cho bảng */
+    table {
+        border-collapse: collapse;
+        width: 300px;
+    }
+
+    /* Thiết lập các thuộc tính cho các ô trong bảng */
+    table td {
+        padding: 8px;
+    }
+
+    /* Thiết lập màu nền và viền cho ô đăng ký */
+    input[type="text"],
+    input[type="password"],
+    button {
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 6px;
+        width: 200px;
+    }
+
+    /* Thiết lập các thuộc tính cho nút đăng nhập */
+    button {
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Hiệu ứng khi di chuột qua nút đăng nhập */
+    button:hover {
+        background-color: #45a049;
+    }

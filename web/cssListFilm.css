@@ -1,0 +1,56 @@
+
+#main-content {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.caption {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin: 0;
+}
+
+.list-film.horizontal {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  overflow-x: auto;
+}
+
+.item.small {
+  margin-right: 10px;
+}
+
+.item.small:last-child {
+  margin-right: 0;
+}
+
+.item a {
+  display: block;
+  text-decoration: none;
+  color: #333333;
+}
+
+.item img {
+  width: 238px;
+  height: 134px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.item p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}

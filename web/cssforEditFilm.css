@@ -1,0 +1,107 @@
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+.film-info {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.film-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 10px;
+}
+input[readonly] {
+  cursor: not-allowed;
+}
+
+.film-id p,
+.film-details h2,
+.film-details h3,
+.film-details p,
+.film-episode p,
+.film-actors p {
+  color: antiquewhite;
+  margin-bottom: 5px;
+}
+
+.film-id input[type="number"],
+.film-details input[type="text"],
+.film-details select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.film-country select,
+.film-genre select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+}
+
+.film-actors input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.film-description input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  height: 80px;
+}
+
+input[type="submit"] {
+  padding: 8px 16px;
+  background-color: antiquewhite;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #ddd;
+}
+
+.film-reviews {
+  margin-top: 20px;
+}
+
+.reviews-count {
+  display: block;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.reviews-label {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.star-points {
+  display: inline;
+  font-style: italic;
+  font-size: 12px;
+  color: #999;
+}

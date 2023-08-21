@@ -1,0 +1,117 @@
+.film-info {
+    display: flex;
+}
+
+.film-image {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.film-details {
+    margin-left: 20px;
+}
+
+.film-title {
+    color: antiquewhite;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.film-title-english {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.film-release-date,
+.film-episode,
+.film-duration,
+.film-views,
+.film-country,
+.film-genre,
+.reviews-count,
+.reviews-label,
+.actors-label {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.user-rating {
+    margin-bottom: 10px;
+}
+
+.rating-label {
+    font-size: 14px;
+    color: #888;
+}
+
+.rating-stars {
+    display: flex;
+    align-items: center;
+}
+
+.rating-star {
+    cursor: pointer;
+    font-size: 24px;
+    color: #888;
+    transition: color 0.3s;
+}
+
+.rating-star:hover,
+.rating-star.active {
+    color: #ffcc00;
+}
+.star-points {
+    display: inline;
+    color: antiquewhite;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.film-reviews {
+    margin-bottom: 10px;
+}
+
+.film-actors {
+    margin-bottom: 20px;
+}
+
+.actors-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.actors-list li {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.actor-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.actor-name {
+    font-size: 14px;
+    color: #888;
+}
+
+.film-description {
+    margin-top: 10px;
+    color: antiquewhite;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+
+
+
